@@ -1,41 +1,26 @@
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-  }
-  
-  .social-icons a {
-    margin-right: 1rem;
-    font-size: 1.5rem;
-    color: #fff;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .social-icons a:last-child {
-    margin-right: 0;
-  }
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 
-  .social-icons a:not(:last-child) {
-    margin-right: 1rem;
-  }
-  
-  .social-icons a:hover {
-    color: #5ba5f5;
-    transform: translateY(-3px);
-  }
+.social-icons-container a {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-  }
-  
-  .container a {
-    margin-right: 1rem;
-  }
-  
-  .container a:last-child {
-    margin-right: 0;
-  }
+.social-icons-container a:last-child {
+  margin-right: 0;
+}
+
+.social-icons-container a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.social-icons-container a:hover {
+  color: #5ba5f5;
+  transform: translateY(-3px);
+}

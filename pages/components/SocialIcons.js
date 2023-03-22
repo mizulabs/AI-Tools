@@ -2,7 +2,7 @@ import styles from "./SocialIcons.module.css";
 
 export default function SocialIcons() {
   return (
-    <div className={styles.container}>
+    <div className={styles["social-icons-container"]}>
       <a href="https://twitter.com/mizu_fi" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-twitter" style={{ fontSize: "24px" }}></i>
       </a>
