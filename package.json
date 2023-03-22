@@ -1,0 +1,28 @@
+{
+  "name": "mizu-ai-tools",
+  "homepage": "/",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm run build && next export && touch out/.nojekyll && gh-pages -d out",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "gh-pages": "^5.0.0",
+    "next": "^13.1.1",
+    "openai": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-spinners": "^0.13.8"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  }
+}

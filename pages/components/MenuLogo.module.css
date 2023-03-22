@@ -1,0 +1,138 @@
+.navbar {
+    background-color: #2b2d31;
+    color: #fff;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 16px;
+    overflow-y: auto;
+  }
+  
+  .section {
+    margin-bottom: 16px;
+  }
+  
+  .sectionButton {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chevronIcon {
+    margin-right: 8px;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .sectionList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sectionList li {
+    margin-bottom: 8px;
+  }
+  
+  .sectionList li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  .sectionList li a:hover {
+    background-color: #6366f1;
+  }
+  
+  .menuLogo {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .menuLogo img {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  .menuLogo a {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 32px;
+    text-decoration: none;
+  }
+  
+  .menuLogo h3 {
+    margin: 0;
+    font-size: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+  }
+  
+  .chatIcon {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .subsectionList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subsectionList li {
+    margin-bottom: 8px;
+  }
+  
+  .subsectionList li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px 16px;
+  }
+  
+  .subsectionList li a:hover {
+    background-color: #6366f1;
+  }
+  
+  .subsubsectionList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subsubsectionList li {
+    margin-bottom: 8px;
+  }
+  
+  .subsubsectionList li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px 32px;
+  }
+  
+  .subsubsectionList li a:hover {
+    background-color: #6366f1;
+  }
+  

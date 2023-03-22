@@ -1,0 +1,88 @@
+.navbar {
+  background-color: rgba(43, 45, 49, 0.2);
+  color: #fff;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.sectionButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  min-width: 100%;
+}
+
+.chevronIcon {
+  margin-right: 8px;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+}
+
+.sectionList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sectionList li {
+  margin-bottom: 8px;
+}
+
+.sectionList li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sectionList li a:hover {
+  background-color: #6366f1;
+}
+
+.menuLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.menuLogo img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.menuLogo a {
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.menuLogo h3 {
+  margin: 0;
+  font-size: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
