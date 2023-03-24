@@ -52,7 +52,10 @@ export default async function (req, res) {
 }
 
 function generatePrompt(functionInput, descriptionInput) {
-  return `Write NatSpec documentation for this Solidity function, using short and simple comments. Use this structure:
+  return `Write NatSpec documentation for this Solidity function, using short and simple comments. 
+  constrains: never write the input function in the response.
+
+Use this structure:
   
   /**
    * @notice 
@@ -65,6 +68,17 @@ function generatePrompt(functionInput, descriptionInput) {
   @return _name1 type1
   @return _name2 type2
   etc...
+  
+  If the returns value doesn't have class names generate @return documentation for each return value this order: 
+  @return type description
+  etc...
+
+  If there isn't any retruns() in the fucntion declaration skip the @return documentation completely like this:
+  /**
+   * @notice 
+   * @dev 
+   * @param 
+   **/
 
 Smart contract description: ${descriptionInput}
 
